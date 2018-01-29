@@ -2,16 +2,14 @@
 __pycache__/
 *.py[cod]
 *$py.class
-idea/
-.idea
-.idea/*
+
+Hoofdstuk_2/*
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -77,18 +75,19 @@ target/
 .python-version
 
 # celery beat schedule file
-celerybeat-schedule
+celerybeat-schedule.*
 
 # SageMath parsed files
 *.sage.py
 
-# dotenv
+# Environments
 .env
-
-# virtualenv
 .venv
+env/
 venv/
 ENV/
+env.bak/
+venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -102,11 +101,3 @@ ENV/
 
 # mypy
 .mypy_cache/
-
-# loi bestanden
-Hoofdstuk_2/oefenbestanden/*.py
-/Hoofdstuk_2/uitwerkingen/*.py
-/Hoofdstuk_3/uitwerkingen/*.py
-# /Hoofdstuk_4/oefenbestanden/*.py
-# /Hoofdstuk_4/uitwerkingen/*.py
-

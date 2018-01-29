@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 
 Hoofdstuk_2/*
+Hoofdstuk_2/oefenbestanden/
+Hoofdstuk_2/oefenbestanden/*
 
 # C extensions
 *.so
